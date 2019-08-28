@@ -8,18 +8,38 @@ body {
   background: #777;
   width: 960px;
   font-size: 18px;
+  line-height: 150%;
+  margin: 0 auto;
 }
 
 header, nav, section, aside, footer {
-  background: #ebebeb;
+  padding: 20px;
+  text-align: center;
+  background: #ebebeb;  
+  margin-top: 10px;
 }
 
 article {
   color: #ebebeb;
   background: #777;
+  padding: 10px;
+}
+
+p, h2 {
+  padding: 10px;
+  background-color: #ebebeb;
+  color: #777;
+  margin-bottom: 15px;
 }
 
 section {
+  padding: 10px;
+  display: inline-block;
   width: 495px;
 }
 
+aside {
+  float: right;
+  width: 450px;
+  height: 242.07px;
+}
